@@ -55,9 +55,14 @@ export default class RedisEventBusService extends AbstractEventBusModuleService 
           prefix: `${this.constructor.name}`,
           ...(moduleOptions.workerOptions ?? {}),
           connection: eventBusRedisConnection,
-          autorun: false,
+          // autorun: false,
         }
       );
+      if (Number(moduleOptions.delay) > 0) {
+        const seconds = Number(moduleOptions.delay) * 1000;
+        this.bullWorker_?.delay(seconds);
+        this.logger_.info(`Event bus worker delayed for ${seconds} seconds`);
+      }
     }
   }
 
