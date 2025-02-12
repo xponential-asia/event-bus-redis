@@ -1,3 +1,17 @@
+# 1.0.0 (2025-02-12)
+
+
+### Bug Fixes
+
+* bug module starts before API does not initialize ([5399caa](https://github.com/xponential-asia/event-bus-redis/commit/5399caa2011eb1564dc978bab69635978e9c21b8))
+* unit test ([4cbd838](https://github.com/xponential-asia/event-bus-redis/commit/4cbd838abb88b2e17559b38cf7daa0c017b027f7))
+
+
+### Features
+
+* add CICD file ([2f40727](https://github.com/xponential-asia/event-bus-redis/commit/2f40727eb5b349cf144f8210f2d40bc70e2be38a))
+* init project ([eb82054](https://github.com/xponential-asia/event-bus-redis/commit/eb820547b7094f9cc22e692c71e1294ca8c3577d))
+
 # @medusajs/event-bus-redis
 
 ## 1.8.14
