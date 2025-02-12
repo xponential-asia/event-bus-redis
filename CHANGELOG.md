@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.5...v1.0.6) (2025-02-12)
+
+
+### Bug Fixes
+
+* add sleep pause worker ([b082e2f](https://github.com/xponential-asia/event-bus-redis-xponential/commit/b082e2f5e118605a18aed5dfcc83044c50776eee))
+
 ## [1.0.5](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.4...v1.0.5) (2025-02-12)
 
 
