@@ -37,4 +37,8 @@ export type EventBusRedisModuleOptions = {
    * @see https://api.docs.bullmq.io/interfaces/BaseJobOptions.html
    */
   jobOptions?: EmitOptions
+  /**
+   * The delay in second to wait before start application.
+   */
+  delay?: number
 }
