@@ -8,11 +8,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/medusajs/medusa",
-    "directory": "packages/event-bus-redis"
+    "url": "https://github.com/xponential-asia/event-bus-redis"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://registry.npmjs.org/"
   },
   "engines": {
     "node": ">=16"
