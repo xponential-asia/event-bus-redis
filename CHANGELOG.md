@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/xponential-asia/event-bus-redis/compare/v1.0.0...v1.0.1) (2025-02-12)
+
+
+### Bug Fixes
+
+* force bump version ([7c22ee3](https://github.com/xponential-asia/event-bus-redis/commit/7c22ee31828a726d282077f63baf9d1758a1991c))
+
 # 1.0.0 (2025-02-12)
 
 
