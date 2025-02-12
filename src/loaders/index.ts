@@ -30,10 +30,10 @@ export default async ({
     await new Promise(async resolve => {
       await connection.connect(resolve)
     })
-    logger?.info(`Connection to Redis in module 'event-bus-redis' established`)
+    logger?.info(`Connection to Redis in module 'event-bus-redis-xponential' established`)
   } catch (err) {
     logger?.error(
-      `An error occurred while connecting to Redis in module 'event-bus-redis':${EOL} ${err}`
+      `An error occurred while connecting to Redis in module 'event-bus-redis-xponential':${EOL} ${err}`
     )
   }
 
