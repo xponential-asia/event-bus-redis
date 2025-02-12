@@ -37,6 +37,7 @@ describe("RedisEventBusService", () => {
       expect(Queue).toHaveBeenCalledWith("events-queue", {
         connection: expect.any(Object),
         prefix: "RedisEventBusService",
+        autorun: false
       })
 
       expect(Worker).toHaveBeenCalledTimes(1)
@@ -46,6 +47,7 @@ describe("RedisEventBusService", () => {
         {
           connection: expect.any(Object),
           prefix: "RedisEventBusService",
+          autorun: false
         }
       )
     })

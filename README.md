@@ -36,7 +36,7 @@ An open source composable commerce engine built for developers.
 
 ## Overview
 
-Redis Event Bus module for Medusa. When installed, the events system of Medusa is powered by BullMQ and `io-redis`. BullMQ is responsible for the message queue and worker. `io-redis` is the underlying Redis client, that BullMQ connects to for events storage.
+Redis Event Bus module for Medusa. When installed, the events system of Medusa is powered by BullMQ and `io-redis`. BullMQ is responsible for the message queue and worker. `io-redis` is the underlying Redis client, that BullMQ connects to for events storage. (Support Medusa v1.20.x)
 
 ## Getting started
 
