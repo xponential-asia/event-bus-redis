@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.2...v1.0.3) (2025-02-12)
+
+
+### Bug Fixes
+
+* add logging when connected this module ([5ced220](https://github.com/xponential-asia/event-bus-redis-xponential/commit/5ced220b8922d48ab482cb9665d4878aba5041df))
+
 ## [1.0.2](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.1...v1.0.2) (2025-02-12)
 
 
