@@ -59,9 +59,16 @@ export default class RedisEventBusService extends AbstractEventBusModuleService 
         }
       );
       if (Number(moduleOptions.delay) > 0) {
-        const seconds = Number(moduleOptions.delay) * 1000;
-        this.bullWorker_?.delay(seconds);
-        this.logger_.info(`Event bus worker delayed for ${seconds} seconds`);
+        const milliseconds = Number(moduleOptions.delay) * 1000;
+        //sleep(milliseconds);
+        this.bullWorker_?.pause();
+        this.logger_.info(
+          `Event bus worker delayed for ${milliseconds} millisecond...`
+        );
+        setTimeout(() => {
+          this.bullWorker_?.resume();
+          this.logger_.info(`Event bus worker is ready to run...`);
+        }, milliseconds);
       }
     }
   }
