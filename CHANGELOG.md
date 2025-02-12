@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.1...v1.0.2) (2025-02-12)
+
+
+### Bug Fixes
+
+* edit package json ([942d420](https://github.com/xponential-asia/event-bus-redis-xponential/commit/942d420cccce06267571a18ad662d9faa573f7af))
+* edit package name ([c4cd07d](https://github.com/xponential-asia/event-bus-redis-xponential/commit/c4cd07d8177ebc2c54fa689a62de598861ac8592))
+
 ## [1.0.1](https://github.com/xponential-asia/event-bus-redis/compare/v1.0.0...v1.0.1) (2025-02-12)
 
 
