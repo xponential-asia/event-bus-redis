@@ -63,8 +63,8 @@ export default class RedisEventBusService extends AbstractEventBusModuleService 
 
   __hooks = {
     onApplicationStart: async () => {
-      await this.bullWorker_?.run();
       this.logger_.info("Event bus worker started");
+      await this.bullWorker_?.run();
     },
     onApplicationShutdown: async () => {
       await this.queue_.close();
@@ -75,6 +75,17 @@ export default class RedisEventBusService extends AbstractEventBusModuleService 
       await this.bullWorker_?.close();
     },
   };
+
+  async onStart(): Promise<void> {
+    await this.bullWorker_?.run();
+    this.logger_.info("Event bus worker started");
+  }
+
+  async onDelay(second: number): Promise<void> {
+    const delay = second * 1000;
+    await this.bullWorker_?.delay(delay);
+    this.logger_.info(`Event bus worker delayed for ${second} seconds`);
+  }
 
   /**
    * Emit a single event
