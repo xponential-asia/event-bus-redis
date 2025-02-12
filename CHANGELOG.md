@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.3...v1.0.4) (2025-02-12)
+
+
+### Bug Fixes
+
+* add fn start, delay ([1cd0215](https://github.com/xponential-asia/event-bus-redis-xponential/commit/1cd02151d8eeb83b2a7390c2aa9502a27ca3051f))
+
 ## [1.0.3](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.2...v1.0.3) (2025-02-12)
 
 
