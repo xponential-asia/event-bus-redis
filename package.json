@@ -1,6 +1,6 @@
 {
   "name": "event-bus-redis-xponential",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Redis Event Bus Module for Medusa",
   "main": "dist/index.js",
   "files": [

@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.4...v1.0.5) (2025-02-12)
+
+
+### Bug Fixes
+
+* add delay when init worker ([acda176](https://github.com/xponential-asia/event-bus-redis-xponential/commit/acda17655733dbeb5a659324673fba7ba4b73523))
+
 ## [1.0.4](https://github.com/xponential-asia/event-bus-redis-xponential/compare/v1.0.3...v1.0.4) (2025-02-12)
 
 
